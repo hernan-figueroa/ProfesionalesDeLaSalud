@@ -1,0 +1,251 @@
+
+
+body{
+  background-color:#F6FCEF;
+  
+}
+
+.tabla{
+  background-color:#98CFA1;
+}
+
+nav{
+  background-color:#98CFA1;
+  height: 60px;
+}
+
+footer{
+  background-color:#98CFA1;
+  height: 90px;
+}
+
+.btn-select-reg{
+  background-color:#b5cfb9;
+
+}
+
+.border-left{
+  border-left: 2px solid #f6fcef;
+}
+
+footer a {
+  text-decoration: none; 
+  color: #f6fcef;
+}
+
+footer .h3{
+  font-size: 20px;
+}
+
+.textoVerde{
+  color: #98CFA1;
+}
+
+Link{
+  text-decoration: none;
+}
+.mainContenedor{
+  min-height: calc(90vh - 150px);
+}
+
+.Formulario{
+  background-color:#98CFA1;
+  
+}
+
+.Formulario .h2 {
+  letter-spacing: 0.09em;
+  font-weight: 700;
+
+}
+
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #f6fcef;
+  opacity: 0.5;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #f6fcef;
+  opacity: 0.5;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+/*Perfil Guest*/
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 160px;
+}
+
+.imagenGuest{  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.nombre h2{
+  font-size: 65%;
+  
+}
+
+.dni{
+  display: flex;
+}
+
+.dni h3{
+  font-size: 45%;
+  
+}
+
+.datosUsuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.nombre{
+  display: flex;
+}
+
+.darseDeBaja{
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 2%;
+  color:#98CFA1;
+  font-weight: 500;
+}
+
+.botonesI{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  
+
+}
+
+.botonI{
+  background-color: #98CFA1;
+  border: none;
+  border-radius:10px;
+  font-size: 2em;
+  color: #FFFFFF;
+  font-weight: 400;
+  
+  width: 30vw;
+  height: 15vh;
+  
+  
+
+}
+
+.presentacion{
+
+  margin: 30px 150px;
+  background-color: #98CFA1;
+  padding: 10px;
+  border-radius:10px;
+  
+}
+
+.carousel{
+  padding: 0 25px 10px 25px;
+  
+  
+}
+
+.textoPasos{
+  color: #98CFA1;
+}
+
+
+
+.calendario{
+  background-color: #98CFA1;
+  border-radius: 15px;
+  padding: 5px 0 25px 0;
+  
+}
+
+
+
+.lupita{
+  margin-top: 29px;
+ text-align: end;
+}
+
+.integrantes{
+  margin-right: 15px;
+}
+
+
+.desarrolladores .integrantes h6{
+  font-weight: 400;
+ 
+}
+
+.titulosAdmin{
+  background-color: #98CFA1;
+  border-radius: 15px;
+  padding: 5px;
+  color: #FFFFFF;
+  
+}
+
+.titulosAdmin h1{
+  padding: 55px;
+}
